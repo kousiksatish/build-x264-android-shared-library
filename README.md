@@ -14,14 +14,13 @@ git clone https://code.videolan.org/videolan/x264.git
 cp x264_build_script.sh <DIRECTORY_CONTAINING_X264>/x264
 cd <DIRECTORY_CONTAINING_X264>/x264
 ```
-3. Run the x264_build_script.sh 
+
+3. Update NDK path in the first line of the script x264_build_script.sh
+
+4. Run the x264_build_script.sh 
 
 ```
 chmod a+x x264_build_script.sh
 ./x264_build_script.sh
 ```
-4. Find the generated .so files at ~/android directory
-
-
-
-
+5. Find the generated .so files at ~/android directory
